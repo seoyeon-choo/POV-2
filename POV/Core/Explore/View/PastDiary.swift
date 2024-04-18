@@ -25,6 +25,7 @@ struct PastDiary: View {
                     .padding(15)
                 
                 Spacer()
+               //update past diary view
                 
                 Button{
                     showAlert = true
@@ -123,6 +124,8 @@ struct PastDiary: View {
             .padding(.horizontal, 15)
             
             Text(listing.context)
+            
+            Text("edit")
             
 
         }.padding(.bottom,20)
